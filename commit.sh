@@ -91,5 +91,4 @@ gum confirm "Push changes?" --default="No" && git push;
 gum style \
 	--foreground 82 --border-foreground 22 --border double \
 	--align center --width 50 --margin "1 2" --padding "2 4" \
-	'🚀 Changes pushed!'
- || clean_exit
+	'🚀 Changes pushed!' || clean_exit
