@@ -1,0 +1,147 @@
+[
+  {
+    "name": "s",
+    "description": "Afficher le status",
+    "command": "status"
+  },
+  {
+    "name": "a",
+    "description": "Ajouter des fichiers à l’index",
+    "command": "add"
+  },
+  {
+    "name": "aa",
+    "description": "Ajouter tous les fichiers",
+    "command": "add ."
+  },
+  {
+    "name": "c",
+    "description": "Commit",
+    "command": "commit"
+  },
+  {
+    "name": "ca",
+    "description": "Commit --amend",
+    "command": "commit --amend"
+  },
+  {
+    "name": "l",
+    "description": "Log --all",
+    "command": "log --all"
+  },
+  {
+    "name": "ll",
+    "description": "Affichage log détaillé et formaté",
+    "command": "log --all --pretty=format:'%C(auto)%C(bold cyan)%h%Creset - %C(italic bold yellow)%d%Creset %s %C(green)(%cr) %C(italic magenta)<%an>%Creset' --abbrev-commit --date=relative --graph"
+  },
+  {
+    "name": "d",
+    "description": "Diff",
+    "command": "diff"
+  },
+  {
+    "name": "ds",
+    "description": "Diff --staged",
+    "command": "diff --staged"
+  },
+  {
+    "name": "ps",
+    "description": "Push",
+    "command": "push"
+  },
+  {
+    "name": "psf",
+    "description": "Push --force-with-lease",
+    "command": "push --force-with-lease"
+  },
+  {
+    "name": "pl",
+    "description": "Pull",
+    "command": "pull"
+  },
+  {
+    "name": "co",
+    "description": "Checkout",
+    "command": "checkout"
+  },
+  {
+    "name": "cb",
+    "description": "Checkout -b",
+    "command": "checkout -b"
+  },
+  {
+    "name": "b",
+    "description": "Branch",
+    "command": "branch"
+  },
+  {
+    "name": "ba",
+    "description": "Branch -a",
+    "command": "branch -a"
+  },
+  {
+    "name": "bd",
+    "description": "Branch -d",
+    "command": "branch -d"
+  },
+  {
+    "name": "f",
+    "description": "Fetch",
+    "command": "fetch"
+  },
+  {
+    "name": "m",
+    "description": "Merge",
+    "command": "merge"
+  },
+  {
+    "name": "rb",
+    "description": "Rebase",
+    "command": "rebase"
+  },
+  {
+    "name": "st",
+    "description": "Stash",
+    "command": "stash"
+  },
+  {
+    "name": "stp",
+    "description": "Stash pop",
+    "command": "stash pop"
+  },
+  {
+    "name": "rs",
+    "description": "Reset",
+    "command": "reset"
+  },
+  {
+    "name": "rss",
+    "description": "Reset --soft",
+    "command": "reset --soft"
+  },
+  {
+    "name": "rsh",
+    "description": "Reset --hard",
+    "command": "reset --hard"
+  },
+  {
+    "name": "cln",
+    "description": "Clean -n",
+    "command": "clean -n"
+  },
+  {
+    "name": "clnf",
+    "description": "Clean -fd",
+    "command": "clean -fd"
+  },
+  {
+    "name": "ss",
+    "description": "Status -sb",
+    "command": "status -sb"
+  },
+  {
+    "name": "aliases",
+    "description": "Config --get-regexp ^alias\\.",
+    "command": "config --get-regexp ^alias\\."
+  }
+]
