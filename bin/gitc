@@ -1,14 +1,40 @@
-#!/bin/sh
+#!/bin/bash
 
-# This script is used to write a conventional commit message.
-# It prompts the user to choose the type of commit as specified in the
-# conventional commit spec. And then prompts for the summary and detailed
-# description of the message and uses the values provided. as the summary and
-# details of the message.
-#
-# If you want to add a simpler version of this script to your dotfiles, use:
-#
-# alias gcm='git commit -m "$(gum input)" -m "$(gum write)"'
+VERSION="0.1.0"
+
+# Afficher l'aide
+show_help() {
+    echo "Usage: gitc [OPTION]"
+    echo "Interactive conventional Git commit tool"
+    echo
+    echo "Options:"
+    echo "  -v, --version    Show version information"
+    echo "  -h, --help       Show this help message"
+    echo
+    echo "Examples:"
+    echo "  gitc              Start interactive commit"
+    echo "  gitc --help      Show this help"
+    echo "  gitc --version   Show version"
+    exit 0
+}
+
+# Vérifier les options
+case "$1" in
+    -v|--version)
+        echo "git-cc version $VERSION"
+        exit 0
+        ;;
+    -h|--help)
+        show_help
+        ;;
+esac
+
+# Vérifier si gum est installé
+if ! command -v gum &> /dev/null; then
+    echo "Error: gum is required but not installed."
+    echo "Please install gum using: brew install gum"
+    exit 1
+fi
 
 # Fonction pour quitter proprement
 clean_exit() {
