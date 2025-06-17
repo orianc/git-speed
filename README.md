@@ -17,6 +17,18 @@ A command-line tool to quickly and easily create conventional Git commits with a
 
 ## Installation 🛠️
 
+### Using Homebrew (recommended)
+
+```bash
+# Add the tap if you haven't already
+brew tap orianc/tap
+
+# Install git-cc
+brew install git-cc
+```
+
+### Manual Installation
+
 1. Clone this repository:
 
    ```bash
@@ -38,13 +50,13 @@ A command-line tool to quickly and easily create conventional Git commits with a
 
 ## Usage 🚀
 
-In any Git repository, simply type:
+Simply run:
 
 ```bash
 gitc
 ```
 
-The interactive interface will guide you through creating your commit.
+Then follow the interactive prompts to create your conventional commit.
 
 ### Supported Commit Types
 
@@ -67,7 +79,7 @@ alias gitc='/path/to/git-speed/commit.sh'
 
 ## Customization 🎨
 
-You can customize the colors and style by directly modifying the `commit.sh` script.
+You can customize the colors and style by directly modifying the `bin/gitc` script.
 
 ## Contributing 🤝
 
@@ -75,4 +87,4 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## License 📄
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
