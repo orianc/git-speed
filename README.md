@@ -21,7 +21,7 @@ A command-line tool to quickly and easily create conventional Git commits with a
 
 ```bash
 # Add the tap if you haven't already
-brew tap orianc/tap
+brew tap orianc/tap git@github.com:orianc/homebrew-tap.git
 
 # Install git-cc
 brew install git-cc
