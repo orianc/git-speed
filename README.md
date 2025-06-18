@@ -17,7 +17,7 @@ A command-line tool to quickly and easily create conventional Git commits with a
 
 ## Installation 🛠️
 
-### Using Homebrew (recommended)
+### Using Homebrew
 
 ```bash
 # Add the tap if you haven't already
@@ -26,27 +26,6 @@ brew tap orianc/tap git@github.com:orianc/homebrew-tap.git
 # Install git-cc
 brew install git-cc
 ```
-
-### Manual Installation
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/orianc/git-speed.git
-   cd git-speed
-   ```
-
-2. Make the installation script executable and run it:
-
-   ```bash
-   chmod +x install.sh
-   ./install.sh
-   ```
-
-3. Restart your terminal or run:
-   ```bash
-   source ~/.zshrc  # or ~/.bashrc depending on your shell
-   ```
 
 ## Usage 🚀
 
