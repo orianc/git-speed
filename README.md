@@ -13,7 +13,6 @@ A command-line tool to quickly and easily create conventional Git commits with a
 ## Prerequisites 📋
 
 - Git
-- [gum](https://github.com/charmbracelet/gum) - A command-line tool for creating elegant user interfaces
 
 ## Installation 🛠️
 
