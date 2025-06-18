@@ -69,14 +69,6 @@ Then follow the interactive prompts to create your conventional commit.
 - `chore`: Changes to the build process or auxiliary tools
 - `revert`: Revert a previous commit
 
-## Uninstallation 🗑️
-
-To remove the alias, delete the following line from your `~/.zshrc` or `~/.bashrc` file:
-
-```bash
-alias gitc='/path/to/git-speed/commit.sh'
-```
-
 ## Customization 🎨
 
 You can customize the colors and style by directly modifying the `bin/gitc` script.
